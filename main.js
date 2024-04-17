@@ -4,5 +4,5 @@ tg.expand();
 
 
 function send_data(objButton){
-    tg.sendData(`aspect #${objButton.value}`); 
+    tg.sendData(`{'get_info_user' : {"aspect":${objButton.value}}}`); 
 }
